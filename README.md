@@ -1,7 +1,9 @@
-# Welcome to streamlit
+# Graded Assignment 8 - TDS
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+### App to find the largest of the three given numbers.
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+The app is built using streamlit python module.
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+Roll No.: 23ds2000038
+
+
