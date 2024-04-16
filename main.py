@@ -12,18 +12,18 @@ style_text = """
 
 def run():
     st.markdown(style_text, unsafe_allow_html=True)
-    st.write("## Graded Assignment  - Tools in Data Science")
-    st.subheader("To find the largest among given three numbers")
+    st.write("## Graded Assignment 8 - Tools in Data Science")
+    st.subheader("App to find the largest among given three numbers")
     st.write("**Enter the numbers below:**")
     num1 = st.number_input("**NUMBER 1**", value=0.0, format="%g")
     num2 = st.number_input("**NUMBER 2**", value=0.0, format="%g")
     num3 = st.number_input("**NUMBER 3**", value=0.0, format="%g")
     max_num = max(num1, num2, num3)
 
-    largest_btn = st.button("Find Largest", type="primary")
+    largest_btn = st.button("Find Largest Number", type="primary")
 
     if largest_btn:
-      st.write("### The LARGEST NUMBER is = " + f":red[{max_num}]")
+      st.write("### The LARGEST NUMBER = " + f":red[{max_num}]")
 
 
 if __name__ == "__main__":
